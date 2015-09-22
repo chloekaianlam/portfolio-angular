@@ -2,6 +2,90 @@
 	"about": {
 		"intro": "I'm Chloe",
 		"title": "A London based Freelance UI Developer",
-		"availability": "Available Now"
-	}
+		"availability": "Available Now",
+		"cta": {
+			"label": "Hire me",
+			"url": "/contact"
+		}
+	},
+	"projects": [
+		{
+			"name": "Renault",
+			"url": "https://www.renault.co.uk/",
+			"types": ["Responsive", "Modular", "Global platform"]
+		},
+		{
+			"name": "Nissan",
+			"url": "http://www.nissan.co.uk/",
+			"types": ["Responsive", "Modular", "Global platform"]
+		},
+		{
+			"name": "Rekorderlig",
+			"url": "http://www.rekorderlig.com/",
+			"types": ["Responsive", "Global"]
+		},
+		{
+			"name": "Love Cravendale",
+			"url": "http://www.cravendale.co.uk/",
+			"types": ["SPA", "Desktop", "Mobile"]
+		},
+		{
+			"name": "Infiniti",
+			"url": "https://www.infiniti.co.uk/",
+			"types": ["Responsive", "Modular", "Global platform"]
+		},
+		{
+			"name": "Candyland",
+			"url": "http://www.candy-land.com",
+			"types": ["Responsive", "SPA", "MVC"]
+		},
+		{
+			"name": "Nominet",
+			"url": "http://www.agreatplacetobe.uk/",
+			"types": ["Responsive"]
+		},
+		{
+			"name": "Weight Watchers",
+			"url": "http://www.weightwatchers.co.uk/",
+			"types": ["Desktop", "Mobile", "Global"]
+		}
+	],
+	"technologies": {
+		"skills": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"SASS/LESS",
+			"Handlebars",
+			"JSON",
+			"Jasmine",
+			"Require"
+		],
+		"workflow": [
+			"Git",
+			"Gulp",
+			"Grunt",
+			"Bower",
+			"NPM",
+			"Command Line"
+		]
+	},
+	"contact": {
+		"description": "If you want to work together or hire me for a project, drop me an email or try one of these social platforms.",
+		"email": "hello@chloekaianlam.com"
+	},
+	"social": [
+		{
+			"media": "LinkedIn",
+			"url": "https://www.linkedin.com/pub/chloe-kaian-lam/17/506/459"
+		},
+		{
+			"media": "Twitter",
+			"url": "https://twitter.com/chloekaianlam"
+		},
+		{
+			"media": "Github",
+			"url": "https://github.com/chloekaianlam/"
+		}
+	]
 }
