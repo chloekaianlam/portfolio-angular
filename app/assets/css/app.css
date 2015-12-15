@@ -367,6 +367,18 @@ td,
 th {
   padding: 0; }
 
+@media screen and (max-width: 40em) {
+  body {
+    background: yellow; } }
+
+@media screen and (min-width: 40.063em) and (max-width: 64em) {
+  body {
+    background: orange; } }
+
+@media screen and (min-width: 64.063em) {
+  body {
+    background: grey; } }
+
 nav {
   background: yellow;
   width: 100%; }

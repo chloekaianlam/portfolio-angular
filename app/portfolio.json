@@ -6,48 +6,67 @@
 		"cta": {
 			"label": "Hire me",
 			"url": "/contact"
-		}
+		},
+		"projectTitle": "Latest Projects",
+		"tech": "Technologies",
+		"work": "Work"
 	},
 	"projects": [
 		{
+			"id": "1",
 			"name": "Renault",
 			"url": "https://www.renault.co.uk/",
-			"types": ["Responsive", "Modular", "Global platform"]
+			"types": ["Responsive", "Modular", "Global platform"],
+			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Renault range, arrange vehicle servicing..."
 		},
 		{
+			"id": "2",
 			"name": "Nissan",
 			"url": "http://www.nissan.co.uk/",
-			"types": ["Responsive", "Modular", "Global platform"]
+			"types": ["Responsive", "Modular", "Global platform"],
+			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Nissan range, arrange vehicle servicing..."
 		},
 		{
+			"id": "3",
 			"name": "Rekorderlig",
 			"url": "http://www.rekorderlig.com/",
-			"types": ["Responsive", "Global"]
+			"types": ["Responsive", "Global"],
+			"description": "Spreading the love for family-brewed cider from the Swedish brewer. This website is part of the complete rebrand of Rekorderlig, introducing the new look, bring its stylish and proud Swedish supporters to the forefront."
 		},
 		{
+			"id": "4",
 			"name": "Love Cravendale",
 			"url": "http://www.cravendale.co.uk/",
-			"types": ["SPA", "Desktop", "Mobile"]
+			"types": ["SPA", "Desktop", "Mobile"],
+			"description": "Online rewards redemption and prize draw platform for Cravendale."
 		},
 		{
+			"id": "5",
 			"name": "Infiniti",
 			"url": "https://www.infiniti.co.uk/",
-			"types": ["Responsive", "Modular", "Global platform"]
+			"types": ["Responsive", "Modular", "Global platform"],
+			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Infiniti range, vehicle configuration..."
 		},
 		{
+			"id": "6",
 			"name": "Candyland",
 			"url": "http://www.candy-land.com",
-			"types": ["Responsive", "SPA", "MVC"]
+			"types": ["Responsive", "SPA", "MVC"],
+			"description": "Fun and engaging platform to reintroduce sweets from our childhood."
 		},
 		{
-			"name": "Nominet",
+			"id": "7",
+			"name": "A great place to be",
 			"url": "http://www.agreatplacetobe.uk/",
-			"types": ["Responsive"]
+			"types": ["Responsive"],
+			"description": "Part of the Nominet family, supplying uk focused domains for small businesses and individual."
 		},
 		{
+			"id": "8",
 			"name": "Weight Watchers",
 			"url": "http://www.weightwatchers.co.uk/",
-			"types": ["Desktop", "Mobile", "Global"]
+			"types": ["Desktop", "Mobile", "Global"],
+			"description": "Rebranding the UK website offering a search system for local meetings, suggest healthy recipes and workout ideas."
 		}
 	],
 	"technologies": {

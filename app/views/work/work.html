@@ -1,7 +1,12 @@
 <div ng-controller="workController">
-	<p>This is the partial for view 2.</p>
-	<p>
-	  Showing of 'interpolate' filter:
-	  {{ 'Current version is v%VERSION%.' | interpolate }}
-	</p>
+	<section class="work">
+		<h2>{{contentData.about.work}}</h2>
+		<ul>
+			<li ng-repeat="project in contentData.projects">
+				<h3>{{project.name}}</h3>
+				<a ng-href="{{project.url}}">{{project.url}}</a>
+				<span ng-repeat="type in project.types">{{type}}</span>
+			</li>
+		</ul>
+	</section>
 </div>

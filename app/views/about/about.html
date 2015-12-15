@@ -5,7 +5,7 @@
 		<p>{{contentData.about.availability}}</p>
 	</section>
 	<section class="latest-projects">
-		<h2>{{contentData.latestProjects.title}}</h2>
+		<h2>{{contentData.about.projectTitle}}</h2>
 		<ul>
 			<li ng-repeat="project in contentData.projects | limitTo: 4">
 				<h3>{{project.name}}</h3>
@@ -15,6 +15,7 @@
 		</ul>
 	</section>
 	<section class="technologies">
+		<h2>{{contentData.about.tech}}</h2>
 		<div class="half-col">
 			<h2></h2>
 			<ul class="skills">

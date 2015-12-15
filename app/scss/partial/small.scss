@@ -1,0 +1,7 @@
+@import 'app/scss/mixin/breakpoints';
+
+@include respond-to(small) {
+	body {
+		background: yellow;
+	}
+}
