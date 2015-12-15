@@ -1,4 +1,5 @@
 @import 'app/scss/mixin/breakpoints';
+@import 'app/scss/partial/small';
 
 @include respond-to(medium) {
 	body {

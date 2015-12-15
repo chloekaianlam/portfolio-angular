@@ -1,31 +1,30 @@
 <div ng-controller="aboutController">
 	<section class="about">
-		<h1>{{contentData.about.intro}}</h1>
-		<h2>{{contentData.about.title}}</h2>
-		<p>{{contentData.about.availability}}</p>
+		<h1><span ng-bind="contentData.about.intro"></span><br /><span ng-bind="contentData.about.title"></span></h1>
+		<p ng-bind="contentData.about.availability"></p>
 	</section>
 	<section class="latest-projects">
-		<h2>{{contentData.about.projectTitle}}</h2>
+		<h2 ng-bind="contentData.about.projectTitle"></h2>
 		<ul>
 			<li ng-repeat="project in contentData.projects | limitTo: 4">
-				<h3>{{project.name}}</h3>
-				<a ng-href="{{project.url}}">{{project.url}}</a>
-				<span ng-repeat="type in project.types">{{type}}</span>
+				<h3 ng-bind="project.name"></h3>
+				<a ng-href="{{project.url}}" ng-bind="project.url"></a>
+				<span ng-repeat="type in project.types" ng-bind="type"></span>
 			</li>
 		</ul>
 	</section>
 	<section class="technologies">
-		<h2>{{contentData.about.tech}}</h2>
+		<h2 ng-bind="contentData.about.tech"></h2>
 		<div class="half-col">
 			<h2></h2>
 			<ul class="skills">
-				<li ng-repeat="skill in contentData.technologies.skills">{{skill}}</li>
+				<li ng-repeat="skill in contentData.technologies.skills" ng-bind="skill"></li>
 			</ul>
 		</div>
 		<div class="half-col">
 			<h2></h2>
 			<ul class="workflow">
-				<li ng-repeat="flow in contentData.technologies.workflow">{{flow}}</li>
+				<li ng-repeat="flow in contentData.technologies.workflow" ng-bind="flow"></li>
 			</ul>
 		</div>
 	</section>
