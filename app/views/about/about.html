@@ -1,14 +1,15 @@
 <div ng-controller="aboutController">
 	<section class="about">
-		<h1><span ng-bind="contentData.about.intro"></span><br /><span ng-bind="contentData.about.title"></span></h1>
-		<p ng-bind="contentData.about.availability"></p>
+		<h1 ng-bind="contentData.about.intro"></h1>
+		<p class="title" ng-bind="contentData.about.title"></p>
+		<p class="availability" ng-bind="contentData.about.availability"></p>
 	</section>
 	<section class="latest-projects">
 		<h2 ng-bind="contentData.about.projectTitle"></h2>
-		<ul>
+		<ul class="project-list">
 			<li ng-repeat="project in contentData.projects | limitTo: 4">
 				<h3 ng-bind="project.name"></h3>
-				<a ng-href="{{project.url}}" ng-bind="project.url"></a>
+				<a ng-href="{{project.url}}" ng-bind="contentData.about.viewText"></a>
 				<span ng-repeat="type in project.types" ng-bind="type"></span>
 			</li>
 		</ul>

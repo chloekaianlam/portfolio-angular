@@ -30,7 +30,7 @@ gulp.task('webserver', function() {
 
 // Configure the sass compilation task
 gulp.task('build-css', function() {
-	return gulp.src('app/scss/**/*.scss')
+	return gulp.src('app/assets/scss/**/*.scss')
 		.pipe(autoprefixer('last 2 version'))
 		.pipe(sass())
 		.pipe(gulp.dest('app/assets/css'))

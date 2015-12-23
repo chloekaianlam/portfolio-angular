@@ -1,0 +1,82 @@
+@import 'app/assets/scss/mixin/breakpoints';
+@import 'app/assets/scss/mixin/colours';
+@import 'app/assets/scss/mixin/mixins';
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.navigation {
+	background: $dark-grey;
+	font-weight: 300;
+	margin: 0;
+	padding: 1em 0 1.8em;
+	list-style: none;
+
+	li {
+		float: left;
+		margin-left: 20px;
+		text-transform: uppercase;
+	}
+
+	a {
+		color: $white;
+		text-decoration: none;
+
+		&:hover {
+			color: $yellow;
+		}
+	}
+}
+
+section {
+	color: $dark-grey;
+	margin: 50px 10px;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 300;
+	margin-top: 50px;
+}
+
+h2 {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: $light-grey;
+	font-weight: 300;
+}
+
+.about {
+	&:before {
+		content: 'C';
+		color: $yellow;
+		font-weight: 200;
+		border-radius: 50%;
+	}
+}
+
+.title {
+	color: $light-grey;
+}
+
+.availability {
+	border: 3px solid $yellow;
+	border-radius: 10px;
+	color: $yellow;
+	padding: 15px;
+
+	&:after {
+		content: '^';
+		color: $yellow;
+	}
+}
+
+.project-list {
+	@include clear-spacing();
+	list-style: none;
+}

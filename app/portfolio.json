@@ -1,7 +1,7 @@
 {
 	"about": {
-		"intro": "I'm Chloe",
-		"title": "A London based Freelance UI Developer",
+		"intro": "Hello! I'm Chloe",
+		"title": "London based | Freelance UI Developer | Team Lead",
 		"availability": "Available Now",
 		"cta": {
 			"label": "Hire me",
@@ -9,7 +9,8 @@
 		},
 		"projectTitle": "Latest Projects",
 		"tech": "Technologies",
-		"work": "Work"
+		"work": "Work",
+		"viewText": "View project" 
 	},
 	"projects": [
 		{

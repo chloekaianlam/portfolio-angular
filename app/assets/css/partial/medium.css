@@ -1,27 +1,19 @@
 @media screen and (max-width: 36.25em) {
-  .navigation {
-    background: #222;
-    margin: 0;
-    padding: 1em 0 1.8em;
-    list-style: none; }
-    .navigation li {
-      float: left;
-      font-size: 0.9em;
-      margin-left: 20px;
-      text-transform: uppercase; }
-    .navigation a {
-      color: #fff;
-      text-decoration: none; }
-      .navigation a:hover {
-        color: #fdc133; }
-  section {
-    margin: 0 10px; }
+  .navigation li {
+    font-size: 0.9em; }
   h1 {
     font-size: 1.8em;
-    line-height: 1.2;
-    text-align: center; }
+    line-height: 1.2; }
   h2 {
-    font-size: 1.5em; } }
+    font-size: 1.2em; }
+  h3 {
+    font-size: 1em; }
+  .about:before {
+    border: 3px solid #fdc133;
+    font-size: 5em;
+    padding: 10px 30px; }
+  .title {
+    font-size: 0.85em; } }
 
 @media screen and (max-width: 59.9375em) and (min-width: 36.3125em) {
   body {

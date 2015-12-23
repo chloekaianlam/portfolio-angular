@@ -1,0 +1,9 @@
+@import 'app/assets/scss/mixin/breakpoints';
+@import 'app/assets/scss/mixin/colours';
+@import 'app/assets/scss/mixin/mixins';
+
+@include respond-to(large) {
+	body {
+		background: grey;
+	}
+}

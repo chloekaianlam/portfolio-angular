@@ -1,0 +1,8 @@
+@import 'app/assets/scss/mixin/breakpoints';
+@import 'app/assets/scss/partial/small';
+
+@include respond-to(medium) {
+	body {
+		background: orange;
+	}
+}
