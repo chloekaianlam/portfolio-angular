@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ==========================================================================
    Normalize.scss settings
    ========================================================================== */
@@ -368,6 +369,7 @@ th {
   padding: 0; }
 
 body {
+  color: #333;
   font-family: 'Roboto', sans-serif;
   font-weight: 300; }
 
@@ -388,20 +390,18 @@ body {
       color: #fdc133; }
 
 section {
-  color: #333;
-  margin: 50px 10px;
+  margin: 50px 0;
   text-align: center; }
 
 h1 {
-  font-weight: 300;
-  margin-top: 50px; }
+  font-weight: 300; }
 
 h2 {
   font-weight: 300;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: left; }
 
 h3 {
-  color: #999;
   font-weight: 300; }
 
 .about:before {
@@ -410,56 +410,178 @@ h3 {
   font-weight: 200;
   border-radius: 50%; }
 
-.title {
-  color: #999; }
-
 .availability {
-  border: 3px solid #fdc133;
+  border-bottom: 3px solid #fdc133;
   border-radius: 10px;
   color: #fdc133;
-  padding: 15px; }
-  .availability:after {
-    content: '^';
+  padding: 15px 0;
+  width: 100%;
+  /*
+	&:after {
+		content: '▾';
+		color: $yellow;
+		font-size: 1.5em;
+		left: 48%;
+		margin-top: 23px;
+		position: absolute;
+	}
+*/ }
+
+figure {
+  width: 100%;
+  margin: 0;
+  overflow: hidden; }
+  figure .thumbnail {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%); }
+    figure .thumbnail:hover,
+    figure .thumbnail:focus {
+      filter: grayscale(0); }
+
+.project-desc {
+  position: absolute;
+  color: #fff;
+  text-align: left;
+  padding: 3px 10px 10px;
+  background: #333; }
+
+.project-link {
+  color: #fff;
+  display: block; }
+  .project-link:hover,
+  .project-link:focus {
     color: #fdc133; }
 
-.project-list {
+.project-type {
+  border-left: 1px solid #fff;
+  padding-left: 10px; }
+
+.half-col {
+  display: inline-block;
+  width: 43%;
+  text-align: left;
+  margin-left: 20px; }
+
+.project-list,
+.skills-list,
+.workflow-list {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-@media screen and (max-width: 36.25em) {
-  .navigation li {
-    font-size: 0.9em; }
-  h1 {
-    font-size: 1.8em;
-    line-height: 1.2; }
-  h2 {
-    font-size: 1.2em; }
-  h3 {
-    font-size: 1em; }
-  .about:before {
-    border: 3px solid #fdc133;
-    font-size: 5em;
-    padding: 10px 30px; }
-  .title {
-    font-size: 0.85em; } }
+.skills-list,
+.workflow-list {
+  font-size: 0.85em;
+  display: inline-block; }
+
+.skills-list-item,
+.workflow-list-item {
+  border-left: 5px solid #fdc133;
+  margin-bottom: 15px;
+  padding: 5px 20px; }
+  .skills-list-item:nth-child(even),
+  .workflow-list-item:nth-child(even) {
+    border-left: 5px solid #333; }
+
+.technologies {
+  margin-bottom: 30px; }
+
+footer {
+  background: #333;
+  width: 100%;
+  height: 50px;
+  color: #fff; }
+
+.social {
+  display: inline-block;
+  padding-top: 7px;
+  float: right;
+  margin-right: 10px; }
+
+.copyright {
+  margin: 17px 10px;
+  display: inline-block;
+  font-size: 0.8em; }
+
+.social-link {
+  margin: 0 5px; }
+
+.social-img {
+  width: 35px;
+  height: 35px; }
 
 @media screen and (max-width: 36.25em) {
   .navigation li {
     font-size: 0.9em; }
   h1 {
-    font-size: 1.8em;
-    line-height: 1.2; }
+    font-size: 2.87em;
+    line-height: 1.2;
+    margin: 30px 0 5px; }
   h2 {
-    font-size: 1.2em; }
+    font-size: 1.5em;
+    margin-left: 10px; }
   h3 {
-    font-size: 1em; }
+    font-size: 1.2em;
+    margin: 5px 0; }
   .about:before {
     border: 3px solid #fdc133;
     font-size: 5em;
     padding: 10px 30px; }
   .title {
-    font-size: 0.85em; } }
+    font-size: 0.85em;
+    margin: 0; }
+  .availability {
+    margin-top: 15px; }
+  .project-list-item {
+    margin-bottom: 20px; }
+  figure {
+    height: 280px; }
+  .project-desc {
+    font-size: 0.8em;
+    margin-top: -100px;
+    border-top: 3px solid #fdc133; }
+  .project-link {
+    margin: 5px 0 15px; }
+  .project-type {
+    font-size: 0.9em;
+    margin-right: 10px; } }
+
+@media screen and (max-width: 36.25em) {
+  .navigation li {
+    font-size: 0.9em; }
+  h1 {
+    font-size: 2.87em;
+    line-height: 1.2;
+    margin: 30px 0 5px; }
+  h2 {
+    font-size: 1.5em;
+    margin-left: 10px; }
+  h3 {
+    font-size: 1.2em;
+    margin: 5px 0; }
+  .about:before {
+    border: 3px solid #fdc133;
+    font-size: 5em;
+    padding: 10px 30px; }
+  .title {
+    font-size: 0.85em;
+    margin: 0; }
+  .availability {
+    margin-top: 15px; }
+  .project-list-item {
+    margin-bottom: 20px; }
+  figure {
+    height: 280px; }
+  .project-desc {
+    font-size: 0.8em;
+    margin-top: -100px;
+    border-top: 3px solid #fdc133; }
+  .project-link {
+    margin: 5px 0 15px; }
+  .project-type {
+    font-size: 0.9em;
+    margin-right: 10px; } }
 
 @media screen and (max-width: 59.9375em) and (min-width: 36.3125em) {
   body {

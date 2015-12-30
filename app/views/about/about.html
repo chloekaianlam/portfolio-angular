@@ -7,10 +7,17 @@
 	<section class="latest-projects">
 		<h2 ng-bind="contentData.about.projectTitle"></h2>
 		<ul class="project-list">
-			<li ng-repeat="project in contentData.projects | limitTo: 4">
-				<h3 ng-bind="project.name"></h3>
-				<a ng-href="{{project.url}}" ng-bind="contentData.about.viewText"></a>
-				<span ng-repeat="type in project.types" ng-bind="type"></span>
+			<li class="project-list-item" ng-repeat="project in contentData.projects | limitTo: 5">
+				<figure>
+					<a ng-href="{{project.url}}">
+						<img class="thumbnail" src="{{project.thumb}}" alt="{{project.imgDesc}}" />
+					</a>
+				</figure>
+				<figcaption class="project-desc">
+					<h3 ng-bind="project.name"></h3>
+					<a class="project-link" ng-href="{{project.url}}" ng-bind="contentData.about.viewText"></a>
+					<span class="project-type" ng-repeat="type in project.types" ng-bind="type"></span>
+				</figcaption>
 			</li>
 		</ul>
 	</section>
@@ -18,14 +25,14 @@
 		<h2 ng-bind="contentData.about.tech"></h2>
 		<div class="half-col">
 			<h2></h2>
-			<ul class="skills">
-				<li ng-repeat="skill in contentData.technologies.skills" ng-bind="skill"></li>
+			<ul class="skills-list">
+				<li class="skills-list-item" ng-repeat="skill in contentData.technologies.skills" ng-bind="skill"></li>
 			</ul>
 		</div>
 		<div class="half-col">
 			<h2></h2>
-			<ul class="workflow">
-				<li ng-repeat="flow in contentData.technologies.workflow" ng-bind="flow"></li>
+			<ul class="workflow-list">
+				<li class="workflow-list-item" ng-repeat="flow in contentData.technologies.workflow" ng-bind="flow"></li>
 			</ul>
 		</div>
 	</section>

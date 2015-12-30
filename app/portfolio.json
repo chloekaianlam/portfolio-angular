@@ -2,7 +2,7 @@
 	"about": {
 		"intro": "Hello! I'm Chloe",
 		"title": "London based | Freelance UI Developer | Team Lead",
-		"availability": "Available Now",
+		"availability": "Available from February 2016",
 		"cta": {
 			"label": "Hire me",
 			"url": "/contact"
@@ -18,6 +18,7 @@
 			"name": "Telegraph Media Group",
 			"url": "http://travel.telegraph.co.uk/travel/hotels/",
 			"types": ["Responsive", "BEM", "Search engine"],
+			"thumb": "../app/assets/images/thumbs/telegraph.png",
 			"description": "Travel ecommerce web platform, search engine for travel products and customed travel products according to customers needs."
 		},
 		{
@@ -25,6 +26,7 @@
 			"name": "Renault",
 			"url": "https://www.renault.co.uk/",
 			"types": ["Responsive", "Modular", "Global platform"],
+			"thumb": "../app/assets/images/thumbs/renault.png",
 			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Renault range, arrange vehicle servicing..."
 		},
 		{
@@ -32,20 +34,23 @@
 			"name": "Nissan",
 			"url": "http://www.nissan.co.uk/",
 			"types": ["Responsive", "Modular", "Global platform"],
+			"thumb": "../app/assets/images/thumbs/nissan.png",
 			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Nissan range, arrange vehicle servicing..."
 		},
 		{
 			"id": "4",
 			"name": "Rekorderlig",
 			"url": "http://www.rekorderlig.com/",
-			"types": ["Responsive", "Global"],
+			"types": ["Responsive", "Global", "Geolocation map"],
+			"thumb": "../app/assets/images/thumbs/rekorderlig.png",
 			"description": "Spreading the love for family-brewed cider from the Swedish brewer. This website is part of the complete rebrand of Rekorderlig, introducing the new look, bring its stylish and proud Swedish supporters to the forefront."
 		},
 		{
 			"id": "5",
 			"name": "Love Cravendale",
 			"url": "http://www.cravendale.co.uk/",
-			"types": ["SPA", "Desktop", "Mobile"],
+			"types": ["SPA", "Backbone", "Mobile"],
+			"thumb": "../app/assets/images/thumbs/love.png",
 			"description": "Online rewards redemption and prize draw platform for Cravendale."
 		},
 		{
@@ -79,14 +84,14 @@
 	],
 	"technologies": {
 		"skills": [
-			"HTML",
-			"CSS",
 			"JavaScript",
 			"SASS/LESS",
+			"HTML",
 			"Handlebars",
-			"JSON",
+			"Angular",
 			"Jasmine",
-			"Require"
+			"Require",
+			"Underscore"
 		],
 		"workflow": [
 			"Git",
@@ -94,7 +99,9 @@
 			"Grunt",
 			"Bower",
 			"NPM",
-			"Command Line"
+			"Command Line",
+			"JSON",
+			"API"
 		]
 	},
 	"contact": {

@@ -72,7 +72,7 @@ gulp.task('watch', function() {
 	// Automatically refresh the page when any files in app is changed
 	gulp.watch('app/assets/**').on('change', livereload.changed);
 	
-	gulp.watch('app/scss/**/*.scss', ['build-css']);
+	gulp.watch('app/assets/scss/**/*.scss', ['build-css']);
 	gulp.watch('app/views/**/*.js', ['build-js']);
 	gulp.watch('app/images/**/*', ['images']);
 });

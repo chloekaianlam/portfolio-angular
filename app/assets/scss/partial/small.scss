@@ -8,16 +8,19 @@
 	}
 
 	h1 {
-		font-size: 1.8em;
+		font-size: 2.87em;
 		line-height: 1.2;
+		margin: 30px 0 5px;
 	}
 
 	h2 {
-		font-size: 1.2em;
+		font-size: 1.5em;
+		margin-left: 10px;
 	}
 
 	h3 {
-		font-size: 1em;
+		font-size: 1.2em;
+		margin: 5px 0;
 	}
 
 	.about {
@@ -30,5 +33,33 @@
 
 	.title {
 		font-size: 0.85em;
+		margin: 0;
+	}
+
+	.availability {
+		margin-top: 15px;
+	}
+
+	.project-list-item {
+		margin-bottom: 20px;
+	}
+
+	figure {
+		height: 280px;
+	}
+
+	.project-desc {
+		font-size: 0.8em;
+		margin-top: -100px;
+		border-top: 3px solid $yellow;
+	}
+
+	.project-link {
+		margin: 5px 0 15px;
+	}
+
+	.project-type {
+		font-size: 0.9em;
+		margin-right: 10px;
 	}
 }
