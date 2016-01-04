@@ -1,18 +1,19 @@
 @media screen and (max-width: 36.25em) {
-  .navigation li {
-    font-size: 0.9em; }
+  .navigation {
+    padding: 1em 0 2em 0.8em; }
+    .navigation li {
+      font-size: 0.9em; }
   h1 {
     font-size: 2.87em;
     line-height: 1.2;
-    margin: 30px 0 5px; }
+    margin: 0.8em 0 5px; }
   h2 {
     font-size: 1.5em;
-    margin: 0 0 30px 10px; }
+    margin: 0 0 1.2em 10px; }
   h3 {
     font-size: 1.2em;
     margin: 5px 0; }
   .about:before {
-    border: 3px solid #fdc133;
     font-size: 5em;
     padding: 10px 30px; }
   .title {
@@ -27,15 +28,57 @@
   .project-desc {
     font-size: 0.8em;
     margin-top: -100px;
-    border-top: 3px solid #fdc133; }
+    border-top: 3px solid #fdc133;
+    position: absolute; }
   .project-link {
     margin: 5px 0 15px; }
   .project-type {
     font-size: 0.9em;
     margin-right: 10px; }
+  .skills-list,
+  .workflow-list {
+    font-size: 0.85em; }
   .work {
     margin-top: 30px; } }
 
 @media screen and (max-width: 59.9375em) and (min-width: 36.3125em) {
-  body {
-    background: orange; } }
+  .navigation {
+    padding: 1em 0 2em 0.8em; }
+    .navigation li {
+      font-size: 1em;
+      margin-right: 3em; }
+  h1 {
+    font-size: 3.8em;
+    line-height: 1.4;
+    margin: 0.5em 0 0; }
+  h2 {
+    font-size: 1.9em;
+    margin: 0 0 1em 15px; }
+  h3 {
+    font-size: 1.3em;
+    margin: 0.5em 0; }
+  .about:before {
+    font-size: 6em;
+    padding: 15px 38px; }
+  .title {
+    font-size: 1.125em;
+    margin: 0.5em 0; }
+  .availability {
+    width: 50%;
+    margin: 1em auto; }
+  .project-list-item {
+    margin-bottom: 50px; }
+  figure {
+    max-height: 550px; }
+  .project-desc {
+    font-size: 0.9em;
+    margin-top: -5px;
+    border-bottom: 5px solid #fdc133; }
+  .project-link {
+    margin: 0 0 1.5em; }
+  .project-type {
+    font-size: 0.9em;
+    margin-right: 10px; }
+  .skills-list,
+  .workflow-list {
+    font-size: 1em; } }

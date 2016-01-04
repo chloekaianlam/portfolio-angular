@@ -19,7 +19,7 @@
 			"url": "http://travel.telegraph.co.uk/travel/hotels/",
 			"types": ["Responsive", "BEM", "Search engine"],
 			"thumb": "../app/assets/images/thumbs/telegraph.png",
-			"description": "Travel ecommerce web platform, search engine for travel products and customed travel products according to customers needs."
+			"description": "Travel e-commerce platform, search engine for travel products and customed travel products according to customers needs."
 		},
 		{
 			"id": "2",
@@ -83,7 +83,7 @@
 			"url": "http://www.weightwatchers.co.uk/",
 			"types": ["Desktop", "Mobile", "Global"],
 			"thumb": "../app/assets/images/thumbs/weightwatchers.png",
-			"description": "Rebranding the UK website offering a search system for local meetings, suggest healthy recipes and workout ideas."
+			"description": "Rebranding the UK website offering a search system for local meetings, healthy recipes and workout ideas."
 		}
 	],
 	"technologies": {

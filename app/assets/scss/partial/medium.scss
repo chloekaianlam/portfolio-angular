@@ -2,7 +2,74 @@
 @import 'app/assets/scss/partial/small';
 
 @include respond-to(medium) {
-	body {
-		background: orange;
+
+	.navigation {
+		padding: 1em 0 2em 0.8em;
+
+		li {
+			font-size: 1em;
+			margin-right: 3em;
+		}
+	}
+
+	h1 {
+		font-size: 3.8em;
+		line-height: 1.4;
+		margin: 0.5em 0 0;
+	}
+
+	h2 {
+		font-size: 1.9em;
+		margin: 0 0 1em 15px;
+	}
+
+	h3 {
+		font-size: 1.3em;
+		margin: 0.5em 0;
+	}
+	
+	.about {
+		&:before {
+			font-size: 6em;
+			padding: 15px 38px;
+		}
+	}
+
+	.title {
+	    font-size: 1.125em;
+	    margin: 0.5em 0;
+	}
+
+	.availability {
+		width: 50%;
+		margin: 1em auto
+	}
+
+	.project-list-item {
+		margin-bottom: 50px;
+	}
+
+	figure {
+		max-height: 550px;
+	}
+
+	.project-desc {
+		font-size: 0.9em;
+		margin-top: -5px;
+		border-bottom: 5px solid $yellow;
+	}
+
+	.project-link {
+		margin: 0 0 1.5em;
+	}
+
+	.project-type {
+		font-size: 0.9em;
+		margin-right: 10px;
+	}
+
+	.skills-list,
+	.workflow-list {
+		font-size: 1em;
 	}
 }

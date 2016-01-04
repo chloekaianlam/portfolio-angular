@@ -12,7 +12,6 @@ body {
 	background: $dark-grey;
 	font-weight: 300;
 	margin: 0;
-	padding: 1em 0 1.8em 0.8em;
 	list-style: none;
 
 	li {
@@ -53,6 +52,7 @@ h3 {
 // Beginning of Homepage
 .about {
 	&:before {
+		border: 3px solid $yellow;
 		content: 'C';
 		color: $yellow;
 		font-weight: 200;
@@ -96,7 +96,6 @@ figure {
 }
 
 .project-desc {
-	position: absolute;
 	color: $white;
 	text-align: left;
 	padding: 3px 10px 10px;
@@ -134,7 +133,6 @@ figure {
 
 .skills-list,
 .workflow-list {
-	font-size: 0.85em;
 	display: inline-block;
 }
 
