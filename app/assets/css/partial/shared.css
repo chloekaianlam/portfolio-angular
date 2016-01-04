@@ -8,11 +8,11 @@ body {
   background: #333;
   font-weight: 300;
   margin: 0;
-  padding: 1em 0 1.8em;
+  padding: 1em 0 1.8em 0.8em;
   list-style: none; }
   .navigation li {
     float: left;
-    margin-left: 20px;
+    margin-right: 2em;
     text-transform: uppercase; }
   .navigation a {
     color: #fff;

@@ -12,12 +12,12 @@ body {
 	background: $dark-grey;
 	font-weight: 300;
 	margin: 0;
-	padding: 1em 0 1.8em;
+	padding: 1em 0 1.8em 0.8em;
 	list-style: none;
 
 	li {
 		float: left;
-		margin-left: 20px;
+		margin-right: 2em;
 		text-transform: uppercase;
 	}
 
@@ -50,6 +50,7 @@ h3 {
 	font-weight: 300;
 }
 
+// Beginning of Homepage
 .about {
 	&:before {
 		content: 'C';

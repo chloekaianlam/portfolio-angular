@@ -9,7 +9,7 @@
 		},
 		"projectTitle": "Latest Projects",
 		"tech": "Technologies",
-		"work": "Work",
+		"work": "Projects",
 		"viewText": "View project" 
 	},
 	"projects": [
@@ -25,7 +25,7 @@
 			"id": "2",
 			"name": "Renault",
 			"url": "https://www.renault.co.uk/",
-			"types": ["Responsive", "Modular", "Global platform"],
+			"types": ["Responsive", "Modular", "SASS", "Global"],
 			"thumb": "../app/assets/images/thumbs/renault.png",
 			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Renault range, arrange vehicle servicing..."
 		},
@@ -33,7 +33,7 @@
 			"id": "3",
 			"name": "Nissan",
 			"url": "http://www.nissan.co.uk/",
-			"types": ["Responsive", "Modular", "Global platform"],
+			"types": ["Responsive", "Modular", "SASS", "Global"],
 			"thumb": "../app/assets/images/thumbs/nissan.png",
 			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Nissan range, arrange vehicle servicing..."
 		},
@@ -58,6 +58,7 @@
 			"name": "Infiniti",
 			"url": "https://www.infiniti.co.uk/",
 			"types": ["Responsive", "Modular", "Global platform"],
+			"thumb": "../app/assets/images/thumbs/infiniti.png",
 			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Infiniti range, vehicle configuration..."
 		},
 		{
@@ -65,13 +66,15 @@
 			"name": "Candyland",
 			"url": "http://www.candy-land.com",
 			"types": ["Responsive", "SPA", "MVC"],
+			"thumb": "../app/assets/images/thumbs/candyland.png",
 			"description": "Fun and engaging platform to reintroduce sweets from our childhood."
 		},
 		{
 			"id": "8",
 			"name": "A great place to be",
 			"url": "http://www.agreatplacetobe.uk/",
-			"types": ["Responsive"],
+			"types": ["Responsive", "JavaScript", "LESS"],
+			"thumb": "../app/assets/images/thumbs/greatplace.png",
 			"description": "Part of the Nominet family, supplying uk focused domains for small businesses and individual."
 		},
 		{
@@ -79,6 +82,7 @@
 			"name": "Weight Watchers",
 			"url": "http://www.weightwatchers.co.uk/",
 			"types": ["Desktop", "Mobile", "Global"],
+			"thumb": "../app/assets/images/thumbs/weightwatchers.png",
 			"description": "Rebranding the UK website offering a search system for local meetings, suggest healthy recipes and workout ideas."
 		}
 	],
