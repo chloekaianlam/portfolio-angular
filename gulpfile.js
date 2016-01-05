@@ -67,10 +67,11 @@ gulp.task('clean', function(cb) {
 
 // Configure which files to watch and what tasks to use on file changes
 gulp.task('watch', function() {
-	livereload.listen();
+	//livereload.listen();
 
+	// Commented livereload task, as it was causing this error - Error: listen EADDRINUSE :::8080
 	// Automatically refresh the page when any files in app is changed
-	gulp.watch('app/assets/**').on('change', livereload.changed);
+	//gulp.watch('app/assets/**').on('change', livereload.changed);
 	
 	gulp.watch('app/assets/scss/**/*.scss', ['build-css']);
 	gulp.watch('app/views/**/*.js', ['build-js']);

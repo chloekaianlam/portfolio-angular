@@ -9,13 +9,13 @@
 		<ul class="project-list">
 			<li class="project-list-item" ng-repeat="project in contentData.projects | limitTo: 5">
 				<figure>
-					<a ng-href="{{project.url}}">
+					<a ng-href="{{project.url}}" target="_blank">
 						<img class="thumbnail" src="{{project.thumb}}" alt="{{project.imgDesc}}" />
 					</a>
 				</figure>
 				<figcaption class="project-desc">
 					<h3 ng-bind="project.name"></h3>
-					<a class="project-link" ng-href="{{project.url}}" ng-bind="contentData.about.viewText"></a>
+					<a class="project-link" ng-href="{{project.url}}" target="_blank" ng-bind="contentData.about.viewText"></a>
 					<span class="project-type" ng-repeat="type in project.types" ng-bind="type"></span>
 				</figcaption>
 			</li>
