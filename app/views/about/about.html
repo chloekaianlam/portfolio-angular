@@ -7,7 +7,7 @@
 	<section class="latest-projects">
 		<h2 ng-bind="contentData.about.projectTitle"></h2>
 		<ul class="project-list">
-			<li class="project-list-item" ng-repeat="project in contentData.projects | limitTo: 5">
+			<li class="project-list-item" ng-repeat="project in contentData.projects | limitTo: 6">
 				<figure>
 					<a ng-href="{{project.url}}" target="_blank">
 						<img class="thumbnail" src="{{project.thumb}}" alt="{{project.imgDesc}}" />

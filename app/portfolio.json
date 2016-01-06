@@ -55,19 +55,19 @@
 		},
 		{
 			"id": "6",
-			"name": "Infiniti",
-			"url": "https://www.infiniti.co.uk/",
-			"types": ["Responsive", "Modular", "Global platform"],
-			"thumb": "../app/assets/images/thumbs/infiniti.png",
-			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Infiniti range, vehicle configuration..."
-		},
-		{
-			"id": "7",
 			"name": "Candyland",
 			"url": "http://www.candy-land.com",
 			"types": ["Responsive", "SPA", "MVC"],
 			"thumb": "../app/assets/images/thumbs/candyland.png",
 			"description": "Fun and engaging platform to reintroduce sweets from our childhood."
+		},
+		{
+			"id": "7",
+			"name": "Infiniti",
+			"url": "https://www.infiniti.co.uk/",
+			"types": ["Responsive", "Modular", "Global platform"],
+			"thumb": "../app/assets/images/thumbs/infiniti.png",
+			"description": "Six brands in one global platform offering wide range of vehicles, services and offers. It allows users to book a test drive, discover the Infiniti range, vehicle configuration..."
 		},
 		{
 			"id": "8",

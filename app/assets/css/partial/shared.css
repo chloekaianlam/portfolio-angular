@@ -34,6 +34,21 @@ h2 {
 h3 {
   font-weight: 300; }
 
+a {
+  color: #999; }
+  a:hover,
+  a:focus {
+    color: #fdc133; }
+
+footer {
+  background: #333;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  position: fixed;
+  bottom: 0; }
+
+/* Beginning of Homepage */
 .about:before {
   border: 3px solid #fdc133;
   content: 'C';
@@ -116,13 +131,7 @@ figure {
     border-left: 5px solid #333; }
 
 .technologies {
-  margin-bottom: 30px; }
-
-footer {
-  background: #333;
-  width: 100%;
-  height: 50px;
-  color: #fff; }
+  margin-bottom: 80px; }
 
 .social {
   display: inline-block;
