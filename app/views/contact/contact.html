@@ -1,7 +1,9 @@
 <div ng-controller="contactController">
 	<section class="contact">
 		<h1 ng-bind="contentData.contact.heading"></h1>
+		<p ng-bind="contentData.contact.description"></p>
+		<a class="portfolio" ng-href="http://www.chloekaianlam.com" ng-bind="contentData.contact.portfolio"></a>
+		<a class="email" ng-href="mailto:hello@chloekaianlam.com" ng-bind="contentData.contact.email"></a>
 		<p class="mobile" ng-bind="contentData.contact.mobile"></p>
-		<a class="email" ng-href="mailto:contentData.contact.email" ng-bind="contentData.contact.email"></a>
 	</section>
 </div>

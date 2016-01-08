@@ -58,6 +58,10 @@ a {
 	}
 }
 
+p {
+	line-height: 1.8;
+}
+
 footer {
 	background: $dark-grey;
 	width: 100%;
@@ -190,3 +194,36 @@ figure {
 	width: 35px;
 	height: 35px;
 }
+
+/* Beginning of Contact */
+
+.contact {
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	.portfolio,
+	.email {
+		line-height: 3;
+	}
+}
+
+/*
+.portfolio:before {
+	content: '\0d83c';
+}
+
+.email:before {
+	content: '\2709';
+	font-size: 1.8em;
+	margin-right: 10px;
+}
+
+.mobile:before {
+	content: '\2706';
+	float: left;
+    font-size: 1.8em;
+    line-height: 0.95;
+    margin-right: 10px;
+}
+*/

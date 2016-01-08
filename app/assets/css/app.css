@@ -409,6 +409,9 @@ a {
   a:focus {
     color: #fdc133; }
 
+p {
+  line-height: 1.8; }
+
 footer {
   background: #333;
   width: 100%;
@@ -518,6 +521,34 @@ figure {
   width: 35px;
   height: 35px; }
 
+/* Beginning of Contact */
+.contact {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px; }
+  .contact .portfolio,
+  .contact .email {
+    line-height: 3; }
+
+/*
+.portfolio:before {
+	content: '\0d83c';
+}
+
+.email:before {
+	content: '\2709';
+	font-size: 1.8em;
+	margin-right: 10px;
+}
+
+.mobile:before {
+	content: '\2706';
+	float: left;
+    font-size: 1.8em;
+    line-height: 0.95;
+    margin-right: 10px;
+}
+*/
 @media screen and (max-width: 36.25em) {
   .navigation {
     padding: 1em 0 2em 0.8em; }

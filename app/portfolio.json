@@ -110,9 +110,10 @@
 	},
 	"contact": {
 		"heading": "Get in touch",
-		"description": "If you want to work together or hire me for a project, drop me an email or try one of these social platforms.",
-		"mobile": "07414 708 713",
-		"email": "hello@chloekaianlam.com"
+		"description": "Take a look around my portfolio, get in touch if you want to work together or hire me for a project. The developer side of me do prefer if you could drop me an email first, otherwise give me a call or try one of the social media platforms.",
+		"portfolio": "www.chloekaianlam.com",
+		"email": "hello@chloekaianlam.com",
+		"mobile": "07414 708 713"
 	},
 	"social": [
 		{
